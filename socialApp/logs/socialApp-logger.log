@@ -1,0 +1,38 @@
+2020-04-01 21:08:56 - c.m.socialApp.SocialAppApplication - Starting SocialAppApplication on it-admins-MBP with PID 28296 (/Users/seera/Documents/Rahil/ForGit/Spring/socialApp/target/classes started by seera in /Users/seera/Documents/Rahil/ForGit/Spring/socialApp)
+2020-04-01 21:08:56 - c.m.socialApp.SocialAppApplication - No active profile set, falling back to default profiles: default
+2020-04-01 21:08:57 - o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/seera/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/Users/seera/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/Users/seera/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/Users/seera/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/seera/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/Users/seera/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/Users/seera/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-01 21:08:57 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-01 21:08:57 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-01 21:08:58 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-01 21:08:58 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 112ms. Found 2 JPA repository interfaces.
+2020-04-01 21:09:00 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-01 21:09:00 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-01 21:09:00 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-01 21:09:00 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-01 21:09:00 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-01 21:09:00 - o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3357 ms
+2020-04-01 21:09:00 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-01 21:09:01 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-01 21:09:01 - o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-04-01 21:09:01 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-01 21:09:01 - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-01 21:09:01 - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-01 21:09:02 - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-04-01 21:09:03 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-01 21:09:03 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-01 21:09:03 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-04-01 21:09:05 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-01 21:09:05 - s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-01 21:09:06 - o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-01 21:09:06 - s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-01 21:09:06 - s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-01 21:09:06 - s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-01 21:09:06 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-01 21:09:06 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-01 21:09:06 - c.m.socialApp.SocialAppApplication - Started SocialAppApplication in 11.173 seconds (JVM running for 11.956)
+2020-04-01 21:09:10 - o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-01 21:09:10 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-01 21:09:10 - o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-04-01 21:09:10 - o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-04-01 21:09:10 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-01 21:09:10 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
