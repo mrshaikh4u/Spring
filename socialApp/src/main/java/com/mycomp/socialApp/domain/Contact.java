@@ -38,6 +38,8 @@ public class Contact {
 
 	@Column(name = "Twitter_ID")
 	private String twitterID;
+	
+	
 
 	@Column(name = "PHONE_NUMBER")
 	private String phoneNumber;
