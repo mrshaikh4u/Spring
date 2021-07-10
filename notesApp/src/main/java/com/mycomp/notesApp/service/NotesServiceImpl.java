@@ -332,11 +332,15 @@ public class NotesServiceImpl implements NoteService {
 		log.info("User XYZ trying to fetch all notes");
 		Page<Note> allNotes;
 		try {
-			List<String> allTags = Stream.of(TAGS.values()).map(e -> e.name()).collect(Collectors.toList());
-			List<String> tags = filters != null && filters.length > 0 ? Arrays.asList(filters) : allTags;
-			Pageable requestedPage = PageRequest.of(page, size, Sort.by("createDate").descending());
-			log.info("searching for : " + tags);
-			allNotes = notesRepo.findAnyOfTheseValues(tags, requestedPage);
+			if (filters == null || filters.length == 0) {	
+				Pageable requestedPage = PageRequest.of(page, size, Sort.by("createDate").descending());
+				allNotes = notesRepo.findAll(requestedPage);
+			} else {
+				List<String> tags = Arrays.asList(filters);
+				Pageable requestedPage = PageRequest.of(page, size, Sort.by("createDate").descending());
+				log.info("searching for : " + tags);
+				allNotes = notesRepo.findAnyOfTheseValues(tags, requestedPage);
+			}
 		} catch (Exception ex) {
 			String errorMsg = "Error occured while fetching notes ";
 			log.error(errorMsg);

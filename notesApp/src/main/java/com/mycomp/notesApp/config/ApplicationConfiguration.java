@@ -2,8 +2,6 @@ package com.mycomp.notesApp.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.data.mongodb.MongoDbFactory;
-import org.springframework.data.mongodb.MongoTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
@@ -23,6 +21,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @author Rahil
  *
  */
+
 @Configuration
 @EnableTransactionManagement
 @EnableSwagger2
